@@ -1,0 +1,1 @@
+{"imports":[{"from":"./is-non-collection","name":"IsNonCollection"},{"from":"./is-dom","name":"IsDom"},{"from":"./is-date","name":"IsDate"},{"from":"./is-object","name":"IsObject"}],"definitions":{},"errors":["Type"]}

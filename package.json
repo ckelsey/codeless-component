@@ -1,0 +1,27 @@
+{
+    "name": "codeless-component",
+    "version": "1.0.0",
+    "description": "",
+    "main": "public/dist/component.js",
+    "scripts": {
+        "start": "codelessdev --server --compile --watch",
+        "server": "codelessdev --server",
+        "test": "codelessdev --test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ckelsey/codeless-component.git"
+    },
+    "author": "Chris Kelsey",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ckelsey/codeless-component/issues"
+    },
+    "homepage": "https://github.com/ckelsey/codeless-component#readme",
+    "devDependencies": {
+        "codelessdev": "^1.0.8"
+    },
+    "dependencies": {
+        "@types/node": "^16.10.1"
+    }
+}

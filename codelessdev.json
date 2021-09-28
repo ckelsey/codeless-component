@@ -1,0 +1,12 @@
+{
+    "port": 3000,
+    "sourceDirectory": "src",
+    "compileOutDirectory": "public/dist",
+    "siteDirectory": "public",
+    "defaultEntry": "src/index.ts",
+    "testUiPath": "test-ui",
+    "testsPattern": "src/**/*.spec.js",
+    "testResultsDirectory": "public/test-results",
+    "serverKey": "./server.key",
+    "serverCert": "./server.crt"
+}

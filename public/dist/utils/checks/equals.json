@@ -1,0 +1,1 @@
+{"imports":[{"from":"../types/is-non-collection","name":"IsNonCollection"},{"from":"../types/type","name":"Type"}],"definitions":{},"errors":["Equals"]}
