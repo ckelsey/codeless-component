@@ -14,16 +14,16 @@ function getFunctionParams(str = ''): string {
 
 export default function Get(
     obj: any,
-    path: string,
+    path: string = '',
     emptyVal?: any,
     modifyFn: Function = emptyModifyFn
 ): any {
 
     /** If nothing to search, return */
-    if (!obj) { return modifyFn(emptyVal) }
+    if (obj === undefined || obj === null) { return modifyFn(emptyVal) }
 
     /** The search array, initial search item being the source */
-    const pathParts = path.split('.')
+    const pathParts = path.split('.').filter(p => !!p)
     let result = obj
 
     const count = pathParts.length

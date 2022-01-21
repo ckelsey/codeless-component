@@ -17,9 +17,9 @@ interface ComponentConfig {
     state?: { [key: string]: StateMetaItem }
     stateSubscriptions?: {
         [key: string]: {
-            next?: (newValue: any, observerInstance?: ObserverInstance) => void
-            error?: (error: string, observerInstance?: ObserverInstance) => void
-            complete?: (observerInstance?: ObserverInstance) => void
+            next?: (host: any, newValue: any, observerInstance?: ObserverInstance) => void
+            error?: (host: any, error: string, observerInstance?: ObserverInstance) => void
+            complete?: (host: any, observerInstance?: ObserverInstance) => void
         }
     }
 }
